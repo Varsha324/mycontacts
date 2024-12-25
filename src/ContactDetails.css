@@ -1,0 +1,30 @@
+/* ContactDetails.css */
+
+.contactdetails-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactdetails-container h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contactdetails-container p {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .contactdetails-container p span {
+    font-weight: bold;
+    color: #333;
+  }
+  
