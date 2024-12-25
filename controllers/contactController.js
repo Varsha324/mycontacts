@@ -33,7 +33,7 @@ const createcontacts = asyncHandler(async(req, res) => {
 });
 
 
-//get the contacts
+//get the contact by id
 //route get/api/contact/id
 //access private
 
