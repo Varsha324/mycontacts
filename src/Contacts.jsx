@@ -71,6 +71,7 @@ function Contacts() {
           <li key={contact._id}>
             {contact.name} - {contact.email} - {contact.number}
             <button onClick={() => handleEdit(contact)}>Edit</button>
+            <div></div>
             <button onClick={() => handleDelete(contact._id)}>Delete</button>
             <Link to={`/contact/${contact._id}`}>View Details</Link>
           </li>
